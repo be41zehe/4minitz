@@ -44,7 +44,7 @@ function select2search(selectResponsibles, delayTime, freeTextValidator, minuteI
                 let returnValues = [];
                 if (results_participants.length > 0)
                     returnValues.push({text:'Participants', children: results_participants});
-                if (results_other.length > 0)
+                if (results_other.length > 0 && !results_other.text==='demo')
                     returnValues.push({text:'Other Users', children: results_other});
 
                 return {
