@@ -143,7 +143,7 @@ Template.minutesedit.onRendered(function () {
             target.style.height = target.scrollHeight + 'px';
             target.style.maxHeight = '700px';
         }
-    }, 50);
+    }, 1000);
 });
 
 Template.minutesedit.onCreated(function () {
